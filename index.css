@@ -1,0 +1,674 @@
+@media only screen and (min-width: 1200px) {
+  .carousel-caption {
+    top: 46%;
+  }
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: orange;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-1%, -50%);
+  text-align: center;
+}
+
+.carousel-caption h1 {
+  font-size: 100px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.carousel-caption a {
+  font-size: 40px;
+  text-decoration: none;
+  background: orange;
+  padding: 10px 50px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+/* Ajoutez la classe d-flex et align-items-center pour aligner au centre */
+.carousel-caption.d-flex.flex-column.align-items-center {
+  background: rgba(0, 0, 0, 0.5); /* Couleur de fond avec transparence */
+  padding: 20px; /* Ajustez selon vos préférences */
+}
+
+.image-and-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Ajoutez une marge en haut selon vos besoins */
+}
+
+.left-image {
+  width: 50%; /* Ajustez la taille de l'image selon vos besoins */
+  height: auto;
+  margin-right: 100px; /* Ajoutez de la marge entre l'image et le texte */
+}
+
+.text-container {
+  color: #333; /* Couleur du texte */
+}
+.text-container h2 {
+  color: orange;
+}
+.text-container h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+.text-container p {
+  font-size: 20px;
+}
+
+.text-container a {
+  font-size: 40px;
+  text-decoration: none;
+  background: orange;
+  padding: 10px 50px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.sec-con h2 {
+  color: orange;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.sec-con h1 {
+  margin-left: 40px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.image-container {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.image-container img {
+  width: 25%;
+  height: auto;
+}
+.image-text {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.booking {
+  margin-top: 50px;
+  text-align: center; /* Centrer le contenu */
+}
+
+.booking h3 {
+  position: relative;
+  display: inline-block;
+}
+
+.booking h3::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: orange;
+  bottom: -5px;
+  left: 25%;
+}
+
+.horizontal-lines {
+  text-align: center;
+}
+
+.line {
+  width: 100px; /* Largeur de la ligne */
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: orange;
+  margin: 10px 10px; /* Marge entre les lignes */
+  display: inline-block;
+}
+
+.image {
+  margin-left: 100px;
+  width: 40%;
+  height: auto;
+}
+.image-info-section {
+  position: relative;
+}
+
+.image-info h2 {
+  display: inline-block;
+  position: relative;
+  margin-left: 120px;
+  color: #fff;
+}
+
+.image-info h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 50%;
+  width: 50%;
+  border-bottom: 2px solid #fff; /* Choisissez la couleur et l'épaisseur de la bordure selon vos préférences */
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligne les éléments à droite */
+  margin-left: 100px;
+  margin-top: 60px;
+  color: #fff;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icon-item i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.icon-item p {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.reservation-card {
+  width: 35%;
+  height: 100%;
+  margin: -800px 0 0 800px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+}
+
+.reservation-card .card-body {
+  height: 70%; /* Utilisez 100% pour que le contenu s'adapte à la hauteur du card */
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.reservation-card h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-transform: uppercase; /* Met le texte en majuscules */
+  position: relative; /* Position relative pour positionner la ligne horizontale */
+  color: #ff8c00; /* Couleur du texte */
+}
+
+.reservation-card h3::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%; /* Place la ligne horizontale au milieu du texte */
+  width: 70%;
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: #ff8c00; /* Couleur de la ligne */
+  transform: translateX(-50%); /* Centre la ligne horizontale */
+}
+
+.form-group {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+}
+
+label {
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 85%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.form-group select {
+  width: 85%; /* Ajustez la largeur du select */
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #ff8c00;
+  font-size: 26px !important;
+  color: #fff;
+  padding: 10px 80px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin: 5px auto;
+}
+
+button:hover {
+  background-color: #e07e00;
+}
+.services {
+  position: relative;
+  padding: 5px;
+  backdrop-filter: brightness(40%);
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Couleur semi-transparente noire (ajustez l'opacité selon vos préférences) */
+  z-index: -1;
+}
+.services::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("pexels-mike-bird-193021.jpg"); /* Remplacez 'background-image.jpg' par le chemin de votre image d'arrière-plan */
+  background-size: cover;
+  background-position: center;
+  z-index: -2; /* Placez la superposition en arrière-plan */
+}
+
+.services .element {
+  color: #fff;
+  max-width: 800px; /* Ajustez la largeur maximale du contenu */
+  margin: 0 auto; /* Centre le contenu horizontalement */
+}
+
+.element h2 {
+  position: relative;
+  margin-left: 20px;
+  white-space: nowrap;
+  font-size: 1.5rem; /* Ajustez la taille du texte selon vos besoins */
+}
+
+.image-group {
+  display: flex;
+  justify-content: center;
+  margin: 80px; /* Ajoutez de la marge en haut de chaque groupe d'images */
+}
+
+.image-text-container {
+  text-align: center;
+  margin: 0 120px 100px 100px;
+}
+
+.image-text-container img {
+  width: 40%; /* Les images occupent 40% de la largeur du conteneur */
+  margin-bottom: 30px; /* Ajoutez de la marge en bas de chaque image */
+}
+
+.image-text-container p {
+  font-size: 1rem; /* Ajustez la taille du texte */
+  text-align: justify;
+  margin: 0;
+  word-spacing: 1px;
+}
+
+.card {
+  max-width: 100%;
+  height: auto;
+  flex: 0 0 auto; /* Ajuste la taille des cartes en fonction du contenu */
+  margin-right: 15px; /* Marge entre les cartes */
+  margin-top: 50px;
+  transition: transform 0.3s ease-in-out; /* Ajoute une transition à la propriété 'transform' */
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(1.05); /* Applique un effet de zoom au survol */
+}
+.card-body h1 {
+  color: orange;
+}
+.icon {
+  font-size: 20px; /* Ajustez la taille selon vos besoins */
+  color: orange; /* Couleur du texte */
+  margin-right: 5px; /* Espacement avec le texte */
+}
+.carousel-section {
+  overflow-x: auto;
+  position: relative;
+}
+
+.chevrons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px; /* Ajustez la taille selon vos besoins */
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* Style pour les chevrons (ajustez selon vos besoins) */
+.bi-chevron-left:before,
+.bi-chevron-right:before {
+  font-size: 2rem;
+}
+.orange-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.orange-text span {
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.btn-primary {
+  background-color: #1e88e5;
+  border-color: #1e88e5;
+}
+
+.btn-primary:hover {
+  background-color: #1976d2;
+  border-color: #1976d2;
+}
+
+.banner {
+  margin-top: 100px;
+  height: 400px; /* Ajustez la hauteur de la bannière selon vos besoins */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Couleur du texte */
+}
+
+.text-container {
+  text-align: left; /* Ajustez l'alignement du texte selon vos besoins */
+  padding: 20px; /* Ajoutez une marge intérieure au texte et au bouton */
+}
+
+.text-container h1 {
+  font-size: 36px; /* Ajustez la taille de la police du titre */
+  margin-bottom: 20px; /* Ajoutez une marge en bas du titre */
+}
+
+.card-body2 {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px; /* Ajoutez de la marge ou du rembourrage au besoin */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  width: calc(100% + 53px);
+  background-color: rgba(116, 73, 9, 0.9);
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
+.social-icons:hover {
+  height: auto;
+  opacity: 1;
+}
+.social-icon {
+  font-size: 34px;
+  color: #fff; /* Couleur de l'icône */
+  margin-right: 20px; /* Espacement entre les icônes (ajustez selon vos besoins) */
+  transition: color 0.3s ease-in-out; /* Effet de transition de couleur */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Couleur de l'icône au survol */
+}
+
+.events,
+.travels {
+  padding: 20px;
+}
+
+.events-gallery,
+.travels-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.events-gallery img,
+.travels-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+/* Afficher les boutons en ligne et centrer-les */
+.gallery .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+/* Définir le style des liens des boutons */
+.gallery .buttons a {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Changer la couleur du lien au survol de la souris */
+.gallery .buttons a:hover {
+  color: orange;
+  border-bottom: 3px solid orange;
+}
+
+/* Afficher les images en grille et définir les colonnes et les lignes */
+.gallery .images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Définir la largeur et la hauteur des images et les adapter à leur conteneur */
+.gallery .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Cacher les images qui ne correspondent pas au filtre sélectionné */
+.gallery .images img:not(.all) {
+  display: none;
+}
+
+/* Afficher les images qui correspondent au filtre sélectionné */
+.gallery .images img.all,
+.gallery .buttons a[href="#all"]:focus ~ .images img,
+.gallery .buttons a[href="#events"]:focus ~ .images img.events,
+.gallery .buttons a[href="#travels"]:focus ~ .images img.travels {
+  display: block;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-wrap: nowrap; /* Emp%C3%AAche le passage %C3%A0 la ligne des %C3%A9l%C3%A9ments flexibles */
+  justify-content: space-around;
+}
+.testimonials h2 {
+  display: block;
+}
+
+.testimonial {
+  position: relative;
+  max-width: 300px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.testimonial img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.testimonial .quote {
+  position: relative;
+  padding: 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+.testimonial .quote:hover {
+  background-color: orange;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.testimonial .triangle {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 35px 35px 0;
+  border-color: #ccc transparent transparent;
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.testimonial .triangle:hover {
+  border-color: orange transparent transparent;
+}
+
+#map {
+  width: 600px;
+  margin-top: 70px;
+}
+.new-form form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.new-form .form-group {
+  margin-bottom: 20px;
+}
+
+.icon-circle {
+  font-size: 40px;
+  background-color: orange; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  border-radius: 50%; /* Bordure en forme de cercle */
+  padding: 10px; /* Espace intérieur du cercle */
+  margin-right: 10px; /* Marge à droite pour espacement */
+  display: inline-block; /* Permet aux éléments de rester sur la même ligne */
+  margin-bottom: 10px; /* Marge en bas pour espacement */
+  margin-top: 30px;
+}
+.contact-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
