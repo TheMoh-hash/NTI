@@ -3,6 +3,53 @@
     top: 46%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .horizontal-lines {
+    display: none; /* Masquer les lignes horizontales sur les petits écrans */
+  }
+
+  .image-info-section {
+    margin: 0; /* Supprimer la marge à gauche sur les petits écrans */
+  }
+
+  .image {
+    margin-left: 0; /* Ajuster la marge de l'image sur les petits écrans */
+    width: 100%;
+  }
+
+  .icon-list {
+    margin-left: 0; /* Ajuster la marge à gauche pour les petits écrans */
+  }
+ 
+  .reservation-card {
+    width: 100%; /* Ajuster la largeur pour les petits écrans */
+    margin: 0; /* Supprimer la marge sur les petits écrans */
+  }
+  .icon-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon-item i {
+    margin-right: 0; /* Supprimer la marge à droite sur les petits écrans */
+  }
+
+  .icon-item p {
+    margin: 10px 0; /* Ajuster la marge pour les petits écrans */
+  }
+  .form-group {
+    grid-template-columns: 1fr; /* Utiliser une seule colonne sur les petits écrans */
+  }
+
+  label {
+    width: 100%; /* Ajuster la largeur de l'étiquette pour occuper toute la largeur */
+  }
+
+  input,
+  select {
+    width: 100%; /* Ajuster la largeur de l'entrée/select pour occuper toute la largeur */
+  }
+}
 
 .navbar-nav {
   text-align: center;
@@ -112,10 +159,6 @@
   margin-left: 40px;
 }
 
-.container {
-  margin-top: 20px;
-}
-
 .image-container {
   margin-bottom: 30px;
   margin-left: 40px;
@@ -132,6 +175,11 @@
   margin-left: 30px;
 }
 
+.clp {
+  width: 53.7rem;
+  height: auto;
+}
+
 .booking {
   margin-top: 50px;
   text-align: center; /* Centrer le contenu */
@@ -139,6 +187,8 @@
 
 .booking h3 {
   position: relative;
+  font-weight: bold;
+  font-size: 40px;
   display: inline-block;
 }
 
@@ -395,21 +445,6 @@ button:hover {
   position: relative;
 }
 
-.chevrons {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px; /* Ajustez la taille selon vos besoins */
-  display: flex;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-/* Style pour les chevrons (ajustez selon vos besoins) */
-.bi-chevron-left:before,
-.bi-chevron-right:before {
-  font-size: 2rem;
-}
 .orange-text {
   display: flex;
   flex-direction: column;
@@ -498,7 +533,7 @@ button:hover {
 
 .events,
 .travels {
-  padding: 20px;
+  padding: 0px;
 }
 
 .events-gallery,
@@ -512,19 +547,6 @@ button:hover {
 .travels-gallery img {
   width: 100%;
   height: auto;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-  font-weight: bold;
 }
 
 /* Afficher les boutons en ligne et centrer-les */
@@ -643,6 +665,11 @@ footer {
   border-color: orange transparent transparent;
 }
 
+.contact {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
 #map {
   width: 600px;
   margin-top: 70px;
@@ -657,18 +684,38 @@ footer {
 }
 
 .icon-circle {
-  font-size: 40px;
-  background-color: orange; /* Couleur de fond */
-  color: #fff; /* Couleur du texte */
-  border-radius: 50%; /* Bordure en forme de cercle */
-  padding: 10px; /* Espace intérieur du cercle */
+  font-size: 30px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 50%;
+  width: 60px; /* Ajuste la taille du cercle en fonction de tes besoins */
+  height: 60px; /* Ajuste la taille du cercle en fonction de tes besoins */
+  display: inline-flex; /* Utilise flex pour centrer le contenu verticalement */
+  align-items: center; /* Centre le contenu verticalement */
+  justify-content: center; /* Centre le contenu horizontalement */
   margin-right: 10px; /* Marge à droite pour espacement */
-  display: inline-block; /* Permet aux éléments de rester sur la même ligne */
   margin-bottom: 10px; /* Marge en bas pour espacement */
   margin-top: 30px;
 }
+
 .contact-label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+}
+.info {
+  font-size: 12px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: bold;
 }

@@ -13,38 +13,41 @@
 </head>
 
 <body>
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg nav-underline fixed-top justify-content-center">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">NTI Limousine Luxury Services</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Order Ride</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Drivers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-        </ul>
+  <header>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg nav-underline fixed-top justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand  " href="#"><img src="./images/NTI_logo_dark.png" alt="NTI" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order Ride</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Drivers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <!-- Carousel Banner -->
   <div id="carouselExampleCaptions" class="carousel slide">
@@ -58,7 +61,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="d1.jpg" class="d-block w-100" alt="Limousine Banner 1" />
+        <img src="./images/pexels-pixabay-248747.jpg" class="d-block w-100" alt="Limousine Banner 1" />
         <div class="carousel-caption d-none d-md-block">
           <h1>The Luxury Limousine Company in Swiss</h1>
           <p>
@@ -73,7 +76,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="d2.jpg" class="d-block w-100" alt="Limousine Banner 2" />
+        <img src="./images/d2.jpg" class="d-block w-100" alt="Limousine Banner 2" />
         <div class="carousel-caption d-none d-md-block">
           <h1>The Luxury Limousine Company in Swiss</h1>
           <p>
@@ -88,7 +91,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="d3.jpg" class="d-block w-100" alt="Limousine Banner 3" />
+        <img src="./images/pexels-albin-berlin-919073.jpg" class="d-block w-100" alt="Limousine Banner 3" />
         <div class="carousel-caption d-none d-md-block">
           <h1>The Luxury Limousine Company in Swiss</h1>
           <p>
@@ -123,68 +126,67 @@
       </button> -->
   </div>
 
-  <div class="image-and-text-container">
-    <img src="p.jpg" alt="Votre Image" class="left-image img-fluid" />
-    <div class="text-container">
-      <h2>Who are we</h2>
-      <h1>Whe are Exceptional Limousine Service</h1>
-      <p>
-        NTI Limousine is an easy and comfortable service that provide you ease
-        of booking a cab from your home.Just show us your pickup and drop-off
-        location along with date and you will get car at your door-step.
-      </p>
-      <p>
-        <a href="#">Contact Us</a>
-      </p>
-    </div>
-  </div>
+  <section class="about-us">
 
-  <section class="sec-con">
+    <div class="image-and-text-container">
+      <img src="./images/p.jpg" alt="Votre Image" class="left-image img-fluid" />
+      <div class="text-container">
+        <h2>Who are we</h2>
+        <h1>Whe are Exceptional Limousine Service</h1>
+        <p>
+          NTI Limousine is an easy and comfortable service that provide you ease
+          of booking a cab from your home.Just show us your pickup and drop-off
+          location along with date and you will get car at your door-step.
+        </p>
+        <p>
+          <a href="#">Contact Us</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+ <section class="sec-con">
     <h2>Our process</h2>
     <h1>How it works</h1>
 
-    <!-- Nouvelle section pour les images -->
-    <div class="row">
+    <div class="row container">
       <div class="col-md-6">
-        <!-- Première image avec texte -->
         <div class="image-container d-flex">
-          <img src="step1.png" alt="Image 2" class="img-fluid">
+          <img src="./images/step1.png" alt="Image 2" class="img-fluid">
           <div class="image-text">
             <h3>Book a ride</h3>
             <p>Book a ride by just providing us required information, and we will get there in no time.</p>
           </div>
         </div>
-        <!-- Deuxième image avec texte -->
         <div class="image-container d-flex">
-          <img src="step2.png" alt="Image 3" class="img-fluid">
+          <img src="./images/step2.png" alt="Image 3" class="img-fluid">
           <div class="image-text">
             <h3>At your Door-Step</h3>
             <p>We will process your request, and you will get a car at your door-step.</p>
           </div>
         </div>
-        <!-- Troisième image avec texte -->
         <div class="image-container d-flex">
-          <img src="step3.png" alt="Image 4" class="img-fluid">
+          <img src="./images/step3.png" alt="Image 4" class="img-fluid">
           <div class="image-text">
             <h3>Arrive Safely</h3>
             <p>We ensure that our trained drivers will take you to your destination safely.</p>
           </div>
         </div>
       </div>
-      <!-- Deuxième colonne (moitié droite) -->
-      <div class="col-md-6">
-        <!-- Image sans texte -->
-        <img src="clp.png" alt="Image 1" class="clp img-fluid">
+
+      <div class="col-md-6 ">
+        <img src="./images/clp.png" alt="Image 1" class="clp" >
       </div>
+      
     </div>
     </div>
-  </section>
+  </section> 
 
 
   <div class="booking">
     <h3>Booking</h3>
-    <p>Our department is here to ensure personalized driving experience.Our smart team takes care of everything.
-      The entire team has been great to work with from start to finish. </p>
+    <p>Our department is here to ensure personalized driving experience.Our smart team takes care of everything.</p>
+    <p> The entire team has been great to work with from start to finish. </p>
   </div>
 
   <section class="black bg-black">
@@ -196,7 +198,7 @@
 
 
     <div class="image-info-section ">
-      <img src="g_wagon.png" alt="Description de l'image" class="image img-fluid">
+      <img src="./images/g_wagon.png" alt="Description de l'image" class="image img-fluid">
       <div class="image-info">
         <h2>2018 Mercedes AMG G65</h2>
       </div>
@@ -271,33 +273,33 @@
   </section>
 
 
-
   <div class="booking">
     <h3>Our Services</h3>
-    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything.
-      The entire team has been great to work with from start to finish.</p>
+    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything.</p>
+    <p> The entire team has been great to work with from start to finish.</p>
   </div>
+
   <section class="services">
     <div class="dark-overlay"></div>
     <div class="element">
 
       <div class="image-group">
         <div class="image-text-container">
-          <img src="Group 1084.png" alt="Description de l'image 1">
+          <img src="./images/Group 1084.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
         </div>
 
         <div class="image-text-container">
-          <img src="Vector.png" alt="Description de l'image 1">
+          <img src="./images/Vector.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
         </div>
 
         <div class="image-text-container">
-          <img src="diamond 1.png" alt="Description de l'image 1">
+          <img src="./images/diamond 1.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
@@ -307,21 +309,21 @@
 
       <div class="image-group">
         <div class="image-text-container">
-          <img src="Group 1084.png" alt="Description de l'image 1">
+          <img src="./images/Group 1084.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
         </div>
 
         <div class="image-text-container">
-          <img src="Vector.png" alt="Description de l'image 1">
+          <img src="./images/Vector.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
         </div>
 
         <div class="image-text-container">
-          <img src="diamond 1.png" alt="Description de l'image 1">
+          <img src="./images/diamond 1.png" alt="Description de l'image 1">
           <h2>Lorem ipsun claless dek</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio magnam facilis quas minus sint unde
             labore nihil dolor iste, ea, modi quod quos architecto praesentium, veniam laboriosam! Eos, non?</p>
@@ -332,8 +334,8 @@
 
   <div class="booking">
     <h3>Our Fleet</h3>
-    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything.
-      The entire team has been great to work with from start to finish.</p>
+    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything. </p>
+    <p>The entire team has been great to work with from start to finish.</p>
   </div>
 
   <section class="carouel-section">
@@ -342,7 +344,7 @@
         <div class="col-md-4">
           <div class="card border-0">
             <div class="card-body  d-flex  flex-column justify-content-between">
-              <img src="car2.png" class="card-img-top" alt="d 3">
+              <img src="./images/car2.png" class="card-img-top" alt="d 3">
               <h1 class="card-title text-center">FIRST CLASS</h1>
               <h5 class=" text-center">Mercedes maybach S600</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut eu tellus cursus
@@ -363,7 +365,7 @@
         <div class="col-md-4">
           <div class="card border-0">
             <div class="card-body  d-flex  flex-column justify-content-between">
-              <img src="car3.png" class="card-img-top" alt="d 3">
+              <img src="./images/car3.png" class="card-img-top" alt="d 3">
               <h1 class="card-title text-center ">BUSINESS CLASS</h1>
               <h5 class=" text-center">Mercedes G - wagon</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut eu tellus cursus
@@ -385,7 +387,7 @@
         <div class="col-md-4">
           <div class="card border-0">
             <div class="card-body  d-flex  flex-column justify-content-between">
-              <img src="car3.png" class="card-img-top" alt="d 3">
+              <img src="./images/car3.png" class="card-img-top" alt="d 3">
               <h1 class="card-title text-center">SUV</h1>
               <h5 class=" text-center">Mercedes M class</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut eu tellus cursus
@@ -400,22 +402,18 @@
                   <p class="card-text"><i class="bi bi-suitcase2-fill icon"></i> 2 Luggage</p>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="chevrons">
-      <i class="bi bi-chevron-left"></i>
-      <i class="bi bi-chevron-right"></i>
-    </div>
+
   </section>
 
   <div class="booking">
     <h3>Our Ride Pricing</h3>
-    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything.
-      The entire team has been great to work with from start to finish.</p>
+    <p>Our department is here to ensure personalized guidance.Our smart team takes care of everything.</p>
+    <p> The entire team has been great to work with from start to finish.</p>
   </div>
 
   <section>
@@ -424,7 +422,7 @@
         <div class="col-md-3">
           <div class="card car-details no-padding border-0">
             <h2>Regular Car</h2>
-            <img src="m-traveller-low.png" class="card-img-top" alt="Car 1">
+            <img src="./images/m-traveller-low.png" class="card-img-top" alt="Car 1">
             <h2>Car Details</h2>
             <p class="orange-text">Seats: <span>Four Seater</span></p>
             <p class="orange-text">Color variation: <span>White & Black</span></p>
@@ -436,7 +434,7 @@
         <div class="col-md-3">
           <div class="card car-details no-padding border-0">
             <h2>Jeep</h2>
-            <img src="m-traveller-low.png" class="card-img-top" alt="Car 2">
+            <img src="./images/m-traveller-low.png" class="card-img-top" alt="Car 2">
             <h2>Car Details</h2>
             <p class="orange-text">Seats: <span>Five Seater</span></p>
             <p class="orange-text">Color variation: <span>White & Black</span></p>
@@ -448,7 +446,7 @@
         <div class="col-md-3">
           <div class="card car-details no-padding border-0 ">
             <h2>Mini Van</h2>
-            <img src="vclass.png" class="card-img-top" alt="Car 3">
+            <img src="./images/vclass.png" class="card-img-top" alt="Car 3">
             <h2>Car Details</h2>
             <p class="orange-text">Seats: <span>Six Seater</span></p>
             <p class="orange-text">Color variation: <span>White & Black</span></p>
@@ -460,7 +458,7 @@
         <div class="col-md-3">
           <div class="card car-details no-padding border-0">
             <h2>Limousine</h2>
-            <img src="m-traveller-low.png" class="card-img-top" alt="Car 4">
+            <img src="./images/m-traveller-low.png" class="card-img-top" alt="Car 4">
             <h2>Car Details</h2>
             <p class="orange-text">Seats: <span>Four Seater</span></p>
             <p class="orange-text">Color variation: <span>White & Black</span></p>
@@ -473,10 +471,8 @@
   </section>
 
 
-
-
   <section class="banner"
-    style="background-image: url('b2.jpg'); background-repeat: no-repeat; background-size: cover;">
+    style="background-image: url('./images/b2.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 mr-md-auto">
@@ -500,7 +496,7 @@
       <div class="row ">
         <div class="col-md-3">
           <div class="class-card">
-            <img src="driver1.png" alt="Class Image">
+            <img src="./images/driver1.png" alt="Class Image">
             <div class="card-body2">
               <h5>Nashida Martinez</h5>
               <p>Chauffeur</p>
@@ -510,7 +506,7 @@
         <div class="col-md-3">
           <div class="class-card">
             <!-- class="card-img-top" pour de l'espace entre les images -->
-            <img src="driver2.png" alt="Class Image">
+            <img src="./images/driver2.png" alt="Class Image">
             <div class="card-body2">
               <h5>Sandro James</h5>
               <p>Chauffeur</p>
@@ -519,7 +515,7 @@
         </div>
         <div class="col-md-3">
           <div class="class-card">
-            <img src="driver1.png" alt="Class Image">
+            <img src="./images/driver1.png" alt="Class Image">
             <div class="card-body2">
               <h5>Nedu Kenneth</h5>
               <p>Chauffeur</p>
@@ -530,7 +526,7 @@
         <div class="col-md-3">
           <div class="class-card">
             <div class="position-relative">
-              <img src="driver4.png" alt="Class Image">
+              <img src="./images/driver4.png" alt="Class Image">
               <div class="social-icons position-absolute">
                 <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
@@ -554,28 +550,29 @@
     <p>The entire team has been great to work with from start to finish.</p>
   </div>
 
-  <section>
-    <div class="gallery">
-      <ul class="buttons">
-        <li><a href="#all">Show All</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#travels">Travels</a></li>
-      </ul>
-      <div class="images">
-        <img src="d1.jpg" alt="image1" class="all events">
-        <img src="d2.jpg" alt="image1" class="all travels">
-        <img src="d2.jpg" alt="image1" class="all travels">
-        <img src="d2.jpg" alt="image1" class="all travels">
-        <img src="d1.jpg" alt="image1" class="all travels">
-        <img src="d2.jpg" alt="image2" class="all events">
-      </div>
+  <!--Gallery-->
+  <section class="gallery">
+    <ul class="buttons">
+      <li><a href="#" data-filter="all">Show All</a></li>
+      <li><a href="#" data-filter="events">Events</a></li>
+      <li><a href="#" data-filter="travels">Travels</a></li>
+    </ul>
+    <div class="images">
+      <img src="d1.jpg" alt="image1" class="all events">
+      <img src="d2.jpg" alt="image2" class="all travels">
+      <img src="d3.jpg" alt="image3" class="all travels">
+      <img src="d1.jpg" alt="image4" class="all travels">
+      <img src="d3.jpg" alt="image5" class="all travels">
+      <img src="d1.jpg" alt="image6" class="all events">
     </div>
   </section>
 
-  <img src="l10.png" alt="banniere" class="w-100 h-100">
+
+  <img src="./images/l10.png" alt="banniere" class="w-100 h-100">
 
   <h3 class="text-lg-center text-warning">Testimonials</h3>
-  <h1 class="text-lg-center">What Clients Say</h1>
+  <h1 class="text-lg-center ">What Clients Say</h1>
+  <!-- Testimonials -->
   <section class="testimonials">
     <div class="testimonial">
       <div class="quote">
@@ -584,7 +581,7 @@
           regular costumer and hope to continue our work!</p>
         <div class="triangle"></div>
       </div>
-      <img src="driver1.png" alt="Client 1">
+      <img src="./images/driver1.png" alt="Client 1">
       <h3>Lewis Jane</h3>
       <p>Photographer</p>
     </div>
@@ -595,7 +592,7 @@
           regular costumer and hope to continue our work!</p>
         <div class="triangle"></div>
       </div>
-      <img src="driver2.png" alt="Client 2">
+      <img src="./images/driver2.png" alt="Client 2">
       <h3>Ben Banneki</h3>
       <p>Sector CEO</p>
     </div>
@@ -608,7 +605,7 @@
           regular costumer and hope to continue our work!
         <div class="triangle"></div>
       </div>
-      <img src="driver2.png" alt="Client 2">
+      <img src="./images/driver2.png" alt="Client 2">
       <h3>Sandra Kay</h3>
       <p>Make Up Artist</p>
     </div>
@@ -619,8 +616,8 @@
     <div class="row">
       <!-- Partie droite de la page avec le formulaire -->
       <div class="col-md-6 new-form">
-        <div class="booking">
-          <h3>Contact Us</h3>
+        <div class="booking ">
+          <h3 class="contact">Contact Us</h3>
           <p>If you have any questions, you can contact us so that we can give you a satisfying answer.</p>
           <p>The entire team has been great to work with from start to finish.</p>
         </div>
@@ -652,29 +649,24 @@
           <div class="form-group">
             <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
           </div>
-          <button type="submit" class="btn btn-warning w-100 rounded-0">Submit</button>
+
+          <button type="submit" class="btn btn-warning w-100 rounded-0 text-white">Submit</button>
 
           <div class="row mb-3">
             <div class="col-md-4 text-center">
               <span class="icon-circle"><i class="bi bi-telephone-plus-fill"></i></span>
-
               <span class="contact-label">Phone</span>
-
-              <span>+44 800099090</span>
+              <span class="info">+44 800099090</span>
             </div>
             <div class="col-md-4 text-center">
               <span class="icon-circle"><i class="bi bi-envelope-at-fill"></i></span>
-
               <span class="contact-label">Email</span>
-
-              <span>info@syntaxchaff.com</span>
+              <span class="info">info@syntaxchaff.com</span>
             </div>
             <div class="col-md-4 text-center">
               <span class="icon-circle"><i class="bi bi-geo-alt-fill"></i></span>
-
               <span class="contact-label">Address</span>
-
-              <span>252 W 43rd St New York, NY 10036</span>
+              <span class="info">252 W 43rd St New York, NY 10036</span>
             </div>
           </div>
 
@@ -687,7 +679,7 @@
           <iframe
             src="
           https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23165.971256141576!2d6.123951364496048!3d46.19800627761222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c650693d0e2eb%3A0xa0b695357b0bbc39!2zR2Vuw6h2ZSwgU3Vpc3Nl!5e0!3m2!1sfr!2stg!4v1703879798842!5m2!1sfr!2stg"
-          width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+          width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
@@ -701,6 +693,7 @@
       <p>Copyright &copy; 2023 NTI Limousine Services & Services Sarl. All rights reserved.</p>
     </div>
   </footer>
+
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
   <!-- <script>
           const buttons = document.querySelectorAll('.buttons a');
